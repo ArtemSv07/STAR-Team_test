@@ -77,22 +77,13 @@
   border-color: var(--white);
   border: solid 1px;
 }
-.hero-skrol-paragraf {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 1.16;
-  letter-spacing: -0.03em;
-  margin-right: 12px;
 
-  color: var(--white);
-}
 .hero-scrol-paragraf-div {
   display: flex;
   align-items: center;
 }
 
-.hero-scrol-div {
+.hero-scrol-span {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -100,9 +91,19 @@
   height: 28px;
   background-color: var(--white);
   border-radius: 50%;
+  margin-left: 14px;
 }
 .hero-link-scrol {
+  display: flex;
+  align-items: center;
   line-height: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.16;
+  letter-spacing: -0.03em;
+  margin-right: 12px;
+  color: var(--white);
 }
 @media only screen and (min-width: 768px) {
   .hero-button-and-scrol {
