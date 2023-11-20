@@ -1,0 +1,94 @@
+:root {
+  --black: #111111;
+  --violet: #1e1823;
+  --orange: #fd9222;
+  --beige: #fcf1e0;
+  --fafa: #fafafa;
+  --white: #ffffff;
+}
+.hero-section {
+  background-color: #fafafa;
+}
+.hero-div {
+  max-width: 335px;
+  padding-top: 395px;
+  padding-bottom: 28px;
+  border-radius: 30px;
+  background-image: url('../img/backgr-img/chocolate-covered.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero-paragraf {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  color: var(--white);
+  width: 290px;
+  margin-bottom: 32px;
+}
+
+.hero-list-button {
+  display: flex;
+  column-gap: 14px;
+  margin-bottom: 32px;
+}
+.hero-button-buy {
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  min-height: 41px;
+  padding: 12px 28px 12px 28px;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.21;
+  letter-spacing: 0em;
+
+  background-color: var(--orange);
+  color: var(--white);
+}
+.hero-button-made {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.21;
+  letter-spacing: 0em;
+  min-height: 41px;
+  padding: 12px 28px 12px 28px;
+  border-radius: 100px;
+  border: 1px;
+  background-color: transparent;
+  color: var(--white);
+  border-color: var(--white);
+  border: solid 1px;
+}
+.hero-skrol-paragraf {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.16;
+  letter-spacing: -0.03em;
+  margin-right: 12px;
+
+  color: var(--white);
+}
+.hero-scrol-paragraf-div {
+  display: flex;
+  align-items: center;
+}
+
+.hero-scrol-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  background-color: var(--white);
+  border-radius: 50%;
+}
+.hero-link-scrol {
+  line-height: 0;
+}
