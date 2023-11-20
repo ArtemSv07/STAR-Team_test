@@ -10,14 +10,26 @@
   background-color: #fafafa;
 }
 .hero-div {
-  max-width: 335px;
-  padding-top: 395px;
-  padding-bottom: 28px;
-  border-radius: 30px;
-  background-image: url('../img/backgr-img/chocolate-covered.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 30px;
+  padding-bottom: 21px;
+  background-color: var(--violet);
 }
+@media only screen and (max-width: 767px) {
+  .hero-div {
+    max-width: 335px;
+    padding-top: 395px;
+
+    background-image: linear-gradient(
+        180deg,
+        rgba(17, 17, 17, 0) 0%,
+        rgba(17, 17, 17, 0.4) 100%
+      ),
+      url('../img/backgr-img/chocolate-covered.jpg');
+  }
+}
+
 .hero-paragraf {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
@@ -65,22 +77,13 @@
   border-color: var(--white);
   border: solid 1px;
 }
-.hero-skrol-paragraf {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 1.16;
-  letter-spacing: -0.03em;
-  margin-right: 12px;
 
-  color: var(--white);
-}
 .hero-scrol-paragraf-div {
   display: flex;
   align-items: center;
 }
 
-.hero-scrol-div {
+.hero-scrol-span {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -88,7 +91,54 @@
   height: 28px;
   background-color: var(--white);
   border-radius: 50%;
+  margin-left: 14px;
 }
 .hero-link-scrol {
+  display: flex;
+  align-items: center;
   line-height: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.16;
+  letter-spacing: -0.03em;
+  margin-right: 12px;
+  color: var(--white);
+}
+@media only screen and (min-width: 768px) {
+  .hero-button-and-scrol {
+    display: flex;
+    justify-content: space-between;
+  }
+  .hero-paragraf {
+    width: 484px;
+    font-size: 28px;
+    line-height: 1.21; /* 121.429% */
+    letter-spacing: -0.03em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1135.99px) {
+  .hero-div {
+    max-width: 704px;
+    padding: 671px 40px 40px 40px;
+    background-image: linear-gradient(
+        180deg,
+        rgba(17, 17, 17, 0) 0%,
+        rgba(17, 17, 17, 0.4) 100%
+      ),
+      url('../img/backgr-img/chocolate-covered-table.jpg');
+  }
+}
+
+@media only screen and (min-width: 1136px) {
+  .hero-div {
+    max-width: 1136px;
+    padding: 381px 40px 40px 40px;
+    background-image: linear-gradient(
+        180deg,
+        rgba(17, 17, 17, 0) 0%,
+        rgba(17, 17, 17, 0.4) 100%
+      ),
+      url('../img/backgr-img/chocolate-covered-laptop.jpg');
+  }
 }
