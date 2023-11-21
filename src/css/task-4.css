@@ -98,16 +98,16 @@
 }
 .overlay {
   position: absolute;
-  overflow: auto;
   top: 0;
   left: 0;
   height: 100%;
   border-radius: 15px;
-  color: var(--black);
-  background-color: var(--white);
   padding: 28px;
   transform: translateY(100%);
   transition: transform 250ms linear;
+
+  color: var(--black);
+  background-color: var(--white);
 }
 .taste-list:hover .overlay {
   transform: translate(0%);
