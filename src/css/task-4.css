@@ -84,11 +84,17 @@
   align-items: center;
   font-size: 10px;
   height: 24px;
-
   line-height: 1.2; /* 120% */
   padding: 0 16px;
   border-radius: 35px;
   border: 1px solid var(--orange);
+}
+.card-list:nth-child(odd) .card-text {
+  background-color: var(--orange);
+  color: var(--white);
+}
+.card-list:nth-child(even) .card-text {
+  background-color: var(--fafa);
 }
 .overlay {
   position: absolute;
@@ -111,13 +117,7 @@
   line-height: 1.28; /* 128.571% */
   letter-spacing: -0.02em;
 }
-.card-list:nth-child(odd) .card-text {
-  background-color: var(--orange);
-  color: var(--white);
-}
-.card-list:nth-child(even) .card-text {
-  background-color: var(--fafa);
-}
+
 .card-list {
   margin-bottom: 14px;
 }
@@ -141,5 +141,11 @@
   }
   .taste-list {
     width: calc((100% - 3 * 19px) / 4);
+  }
+  .overlay {
+    padding: 20px;
+  }
+  .taste-img {
+    margin-bottom: 36px;
   }
 }
