@@ -1,5 +1,7 @@
 /* Reset styles */
-
+body {
+  background-color: var(--fafa);
+}
 h1,
 h2,
 h3,
@@ -58,12 +60,12 @@ img {
 }
 @media only screen and (min-width: 768px) {
   .container {
-    max-width: 744px;
+    max-width: 704px;
   }
 }
 
 @media only screen and (min-width: 1136px) {
   .container {
-    max-width: 1176px;
+    max-width: 1136px;
   }
 }
